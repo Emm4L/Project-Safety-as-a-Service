@@ -5,8 +5,8 @@ Questo è un prototipo di sito web sviluppato come project work per il corso di 
 L'applicazione funge da strumento di supporto per la valutazione preliminare dei rischi sulla sicurezza sul lavoro, in conformità con i principi del D.Lgs. 81/2008.
 
 ## Funzionalità Principali
-*   **Output**: Viene mostrata una pagina che funge da  "finestra divulgativa" contente le principali informazioni sull'argomento della Sicurezza sul lavoro.
-*   **Download PDF**: Possibilità di scaricare un file in PDF che riporti  sintetico in formato PDF con tutti i dati della valutazione.
+*   **Output**: Viene mostrata una pagina che funge da  finestra divulgativa contenete le principali informazioni sulla Sicurezza sul lavoro.
+*   **Download PDF**: Possibilità di scaricare un file in PDF che riporti un file PDF contenente maggiori dettagli sull'argomento del progetto.
 
 ## Tecnologie Utilizzate per la scrittura di codice
 
