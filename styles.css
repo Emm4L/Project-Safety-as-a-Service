@@ -1,0 +1,129 @@
+/* Coloti Pastello utilizzati in tutta la pagina */
+:root{
+   --azzurro:#a8dadc;
+   --blu:#457b9d;
+   --verde:#90e0a3;
+   --grigio:#f1faee;
+   --nero:#2d3748;
+   --bianco:#FFFFFF;
+}
+
+
+/* colore e font del testo(generico) presente */
+body{
+    font-family: sans-serif;  /* font per il tipo di carattere */
+    color:var(--nero); /* colore  */
+    background: var(--bianco);
+}
+
+/*Header - la parte in alto con il titolo principale */
+header{
+    background: var(--azzurro);
+    color: var(--bianco);
+    padding: 30px;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2rem;
+    margin-bottom:10px;
+}
+
+
+/* I titoli h2 ,h3 e h4 hanno lo st4esso colore  */
+h2,h3,h4{
+  color: var(--blu)
+}
+
+h2{
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--azzurro);  /* bordo azzurdo per la linea sotto ogni sezione  */
+  padding-bottom: 5px;
+}
+
+/* Il menu di navigazione con i link alle varie sezioni */
+nav{
+    background: var(--grigio);
+    padding: 15px;
+    text-align: center;
+}
+
+/* Come appaiono i link nel menú  */
+nav a{
+    color:var(--blu);
+    text-decoration: none;  /* Senza sottolineatura */
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+/* Per l'effetto al passaggio del mouse  */
+nav a:hover{
+    background: var(--azzurro);
+    color: var(--bianco);
+}
+
+/* Stili per le sezioni principali del contenuto*/
+section{
+    max-width: 1000px; /*   Il testo non si allarga troppo sugli schermi grandi */
+    margin: auto;
+    padding: 30px;
+}
+
+/* Per dare un colore di sfondo alternato alle sezioni */
+section:nth-child(even){
+    background: var(--bianco);
+}
+
+
+strong{
+    color:var(--blu);
+}
+
+
+/*BOX informativi raggruppati. Impostazione di bordo,padding ecc*/
+.stats-box,.info-box,.metodologie-container{
+    background: var(--grigio);
+    border: 2px solid var(--azzurro);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+/* i box delle metodologie avranno uno sfondo diverso ma ereditano il resto da sopra */
+.metodologie-container{
+    background: var(--azzurro);
+}
+
+.metodologie-container p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.big-number{
+    font-size: 2.5rem;
+    color: var(--blu);
+}
+
+/* Stile pulsante di Download */
+.btn-download{
+    display: inline-block;
+    background: var(--verde);
+    color: var(--bianco);
+    padding : 10px 20px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+/* Permette di cambiare il colore quando il mouse si trova sopra  */
+.btn-download:hover{
+    background: var(--blu);
+}
+
+/* Footer - la parte bassa della pagna*/
+footer{
+    background: var(--blu);
+    color: var(--bianco);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
